@@ -1,0 +1,53 @@
+body{
+    background-image: url(../wepik-positive-quote-background-with-photo-20230714211221mAZ3.png);
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 100px;
+    margin-bottom: 10px;
+}
+p{
+    font-weight: 800;
+    font-size: 17px;
+}
+@media only screen and (max-width: 768px) {
+    h1 {
+      font-size: 40px;
+    }
+}
+.my-container{
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:rgba(0, 62, 121,0.6) ;
+    padding: 10px 20px;
+}
+button {
+    background-color: #002b54;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 20px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease; 
+}
+button:hover {
+    background-color: #CCCCCC;
+    color: #000000;
+}
+#qoute{
+    font-family: 'Cabin', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+}
